@@ -1,3 +1,5 @@
+package Exercicios01;
+
 import java.util.Locale;
 
 public class Idioma {

@@ -1,3 +1,5 @@
+package Exercicios01;
+
 import java.awt.*;
 
 public class Resolucao_computador {
