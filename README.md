@@ -5,7 +5,7 @@
 
 <p align="center">JORNADA VENTURUS 2023 🚀</p>
 
-## About
+## Sobre
 
 Treinamento da **Jornada Venturus 2023**. Aulas e exercicios em Java.
 
