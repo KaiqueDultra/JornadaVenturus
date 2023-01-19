@@ -18,7 +18,7 @@ public class Mercado {
         //Primeira forma de resolver
         if(preco < 30) {valor = preco * 0.10;}
         else{valor = preco * 0.20;}
-        total = (preco - valor);
+        total = (preco - valor); //Conta para tirar o valor do desconto do preço do produto.
         System.out.printf("O valor com o desconto é de: %.2f %n", (total)); //Colocando duas casas após a virgula.
 
         //Segunda forma
@@ -27,13 +27,13 @@ public class Mercado {
         }else{
             valor = (preco * 20) / 100; //Mesma coisa, só que aqui com 20%.
         }
-        total = (preco - valor);
+        total = (preco - valor); //Conta para tirar o valor do desconto do preço do produto.
         System.out.printf("O valor com o desconto é de: %.2f %n", (total)); //Colocando duas casas após a virgula.
 
         //Terceira forma
         double desconto = preco * (preco > 30 ? 0.20 : 0.10); //Nesse caso, se o preco for maior que 30, ele faz o 0.20 de desconto (20%), caso seja menor,
         //cai para o 0.10. Ess exemplo é chamado de operador ternário.
-        total = (preco - desconto);
+        total = (preco - desconto); //Conta para tirar o valor do desconto do preço do produto.
         System.out.printf("O valor com o desconto é de: %.2f %n", (total)); //Colocando duas casas após a virgula.
     }
 }
