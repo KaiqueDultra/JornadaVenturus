@@ -8,9 +8,3 @@
 ## Sobre
 
 Treinamento da **Jornada Venturus 2023**. Aulas e exercicios em Java.
-
-## Ferramentas
-
-- Java 19
-- IntelliJ IDEA Community Edition 2022
-- Git
