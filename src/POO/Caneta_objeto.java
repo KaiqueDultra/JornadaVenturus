@@ -1,6 +1,6 @@
 package POO;
 
-public class Exemplo1 {
+public class Caneta_objeto {
     public static void main(String[] args){
         Caneta c1 = new Caneta(); //Extanciando a classe Caneta (Criando um objeto da classe)
         c1.cor = "Azul"; //Atribuindo a cor do objeto
